@@ -1,0 +1,128 @@
+.titulo{
+	text-align: center;
+	font-family: Cambria, sans-serif;
+}
+p{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Cambria, sans-serif;
+	font-weight: 600;
+}
+body{
+	width: 100%;
+}
+#secao1,#secao2,#secao3{
+	background-color: rgba(100, 99, 99, 0.692);
+}
+.subtitulo1{
+	text-align: center;
+	font-size: 22px;
+	background-color: #edde72;
+	border: 1px solid black;
+	margin-top: -1px;
+	margin-right: -1px;
+	width: 140px;
+	padding: 6px;
+}
+.subtitulo2{
+	text-align: center;
+	font-size: 22px;
+	background-color: #7c59d1;
+	border: 1px solid black;
+	margin-top: -1px;
+	margin-right: -1px;
+	width: 140px;
+	padding: 6px;
+}
+.subtitulo3{
+	text-align: center;
+	font-size: 22px;
+	background-color: #51da7b;
+	border: 1px solid black;
+	margin-top: -1px;
+	margin-right: -1px;
+	width: 140px;
+	padding: 6px;
+}
+@media (min-width: 992px){
+	p{
+		text-align: left;
+		font-size: 18px;
+	}
+	#secao1{
+		float: left;
+		border: 1px solid black;
+		margin-right: 20px;
+		margin-left: 30px;
+		width: 30%;
+	}
+	#secao2{
+		float: left;
+		border: 1px solid black;
+		margin-right: 20px;
+		width: 30%;
+	}
+	#secao3{
+		float: left;
+		border: 1px solid black;
+		margin-right: 4px;
+		width: 30%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	p{
+		text-align: left;
+		font-size: 18px;
+	}
+	#secao1{
+		border: 1px solid black;
+		width: 50%;
+		float: left;
+		width: 45%;
+		margin-left: 20px;
+	}
+	#secao2{
+		border: 1px solid black;
+		width: 50%;
+		float: left;
+		width: 45%;
+		margin-left: 20px;
+	}
+	#secao3{
+		float: left;
+		margin-top: 20px;
+		margin-left: 20px;
+		border: 1px solid black;
+		width: 93.2%;
+	}
+}
+@media (max-width: 767px){
+	p{
+		text-align: left;
+		font-size: 18px;
+	}
+	#secao1{
+		border: 1px solid black;
+		width: 50%;
+		float: left;
+		width: 80%;
+		margin-left: 60px;
+	}
+	#secao2{
+		border: 1px solid black;
+		width: 50%;
+		float: left;
+		width: 80%;
+		margin-left: 60px;
+		margin-top: 10px;
+	}
+	#secao3{
+		border: 1px solid black;
+		width: 50%;
+		float: left;
+		width: 80%;
+		margin-left: 60px;
+		margin-top: 10px;
+	}
+}
